@@ -2,40 +2,44 @@
 <html>
   <head>
     <title>Snap|Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text&family=Epilogue:wght@400;700;900&family=Raleway:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/06c09e0912.js"></script>
     <link rel="stylesheet" href="style.css" />
     
   </head>
   <body>
     <div class="dropdown">
-       <nav>
-      <img class="logo" src="./images/snap.svg" alt="" srcset="" height="100px" width="100px">
+       <nav>  
+      <img class="logo" src="./images/snap.svg" alt="" srcset="" height="50px" width="100px">
       <ul>
-        <li><a href="#">Features</a>
+        <li><a href="#">Features <i class="fa fa-caret-down" aria-hidden="true"></i></a>
         <ul>
-          <li><a href="#">Todo List</a></li>
-          <li><a href="#">Calendar</a></li>
-          <li><a href="#">Reminders</a></li>
-          <li><a href="#">Planning</a></li>
+          <li id="link"><a href="#"><i class="fa-solid fa-list"></i>  Todo List</a></li>
+          <li id="link"><a href="#"><i class="fa-regular fa-calendar-days"></i>  Calendar</a></li>
+          <li id="link"><a href="#"><i class="fa-solid fa-bell"></i>  Reminders</a></li>
+          <li id="link"><a href="#"><i class="fa-solid fa-clock"></i>   Planning</a></li>
         </ul></li>
 
-        <li><a href="#">Company</a>
+        <li><a href="#">Company <i class="fa fa-caret-down" aria-hidden="true"></i></a>
           <ul>
-            <li><a href="#">History</a></li>
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Blog</a></li>
+            <li id="link"><a href="#">History</a></li>
+            <li id="link"><a href="#">Our Team</a></li>
+            <li id="link"><a href="#">Blog</a></li>
           </ul></li>
           <li><a href="#">Careers</a>
           <li><a href="#">About</a>
+          <li><button id="free" >Login</button></li>
+          <li><button id="freee" >Register</button></li>
       </ul>
-
-        <button id="free">Login</button>
-        <button id="free">Register</button>
+        
     </nav>
     </div>
     <div class="hero">
       <div class="head">
-        <h1 id="text">Make <br> remote work</h1>
+        <p id="text">Make <br> remote work</p>
         <p id="text2">Get your team in sync, no matter your location.<br> 
             Streamline processes, create team rituals, and <br>watch productivity soar.</p>
         <button id="freed">Learn more</button>

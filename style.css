@@ -1,17 +1,20 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Serif+Text&family=Epilogue:wght@400;700;800;900&family=Raleway:wght@500&display=swap');
+
 html {
-    background: white;
-    font-family: 'Schibsted Grotesk', sans-serif;
+    background: rgb(250, 249, 249);
+    font-family: 'DM Serif Display', serif;
+font-family: 'DM Serif Text', serif;
+font-family: 'Epilogue', sans-serif;
+font-family: 'Raleway', sans-serif;
   }
 
 .dropdown{
   margin: 0 auto;
+  padding-top: 20px;
   }
 
-    
-  .nav {
-    height: 50px;
-  }
-
+  
   .logo{
       padding-left: 25px;
   }
@@ -20,7 +23,7 @@ html {
     padding:0;
     margin: 0;
     float: right;
-    margin-right: 350px;
+    margin-right: 250px;
     
   }
 
@@ -35,12 +38,18 @@ html {
     padding: 0 15px;
     color: black;
     text-decoration: none;
-    line-height: 60px;
-    font-size: 20px;
+    line-height: 10px;
+    font-size: 15px;
+    
+  }
+
+  #link{
+    border: 5px white solid;
+    background-color: white;
   }
 
   nav ul li a:hover{
-    background: rgb(109, 107, 107);
+    background: white;
 
   }
 
@@ -50,13 +59,17 @@ html {
     display: none;
   }
 
-  nav ul li:hover 
-  
-  .buttons {
-    padding-top: 20px;
-    margin-left: 400px;
+  nav ul li:hover > ul{
+    display: block;
   }
   
+  nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+
   .boxes {
     display: flex;
     margin-top: 100px;
@@ -68,22 +81,41 @@ html {
   
   #free {
     color: black;
-    border: 1px black solid;
+    border: 1px white solid;
     border-radius: 20px;
     font-size: small;
-    padding: 15px;
+    padding: 10px;
     background-color: white;
+    margin-left: 250px;
     width: 120px;
+    
+  }
+
+  #freee {
+    color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+    font-size: small;
+    padding: 10px;
+    background-color: white;
+    margin-left: 20px;
+    width: 120px;
+    
   }
 
   #freed {
     color: white;
-    border: 5px white solid;
-    border-radius: 20px;
+    border: 2px black solid;
+    border-radius: 10px;
     font-size: medium;
     padding: 15px;
     background-color: black;
     margin-top: 30px;
+  }
+
+  #freed:hover{
+    background: rgb(211, 209, 209);
+    
   }
   
   #fast {
@@ -99,6 +131,10 @@ html {
   #text {
     font-weight: 900;
     font-size: xx-large;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Raleway', sans-serif; 
   }
   
   #text2 {
@@ -112,7 +148,7 @@ html {
   }
   
   .group{
-    margin-top: 40px;
+    margin-top: 60px;
   }
   
   @media screen and (max-width: 600px) {
